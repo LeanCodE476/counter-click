@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.App{
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+  min-width: 40rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.App h1{
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  
+}
+.container-contador{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  width: 20rem;
+  height: 20rem;
+}
+.contenedor-numero{
+  width: 50%;
+  height: 6rem;
+  background-color: red;
+}
